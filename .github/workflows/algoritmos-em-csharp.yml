@@ -1,0 +1,14 @@
+name: Exemplo de fluxo de trabalho
+
+on:
+   workflow_dispatch:
+
+jobs:
+  acao_inicial_job:
+    runs-on: ubunt-latest
+    steps:
+      - name: Imprimir OLA
+        run: echo "OLÁ"
+      - name: Imprimir TCAHU
+        run: echo "TCHAU"
+        
